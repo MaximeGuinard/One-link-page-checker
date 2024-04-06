@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "One-page link checker 🔗",
+    "description": "404 Link Checker is a powerful extension that allows you to quickly check links on a web page.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["content.js"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
